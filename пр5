@@ -28,3 +28,73 @@ if 2 или 16:
    print("если число четное и зканачивается на 2 или 6 вывести True")  
 else:
      print("число не четное не заканчивается на 2 или 6 вывести False")
+
+
+зд 3
+
+num1 = int(input("введите число a: "))
+num2 = int(input("введите число b: "))
+print("выбирите операцию:\n[1] - \n[2] + \n[3] *\n[4] /")
+num = input ("введите номер вашего выбора: ")
+if num == "1":
+    print(num1 - num2)
+elif num2 =="2":    
+     print(num1 + num2)
+elif num2 =="3":    
+     print(num1 * num2)
+elif num2 =="4":    
+    print(num1 - num2)
+else:
+    print("неверная операция.")
+    
+    4 зд
+    
+num = int(input("введите число: "))
+if num %2 == 0 and num % 10 ==6:
+    print(True)
+elif num %2 == 0 and num % 10 ==2:
+     print(True)
+else:
+    print(False)
+    
+    5 зд 
+    
+par = ("Пароль")
+pas = input ("введите пароль: ")
+if pas == par:
+    print("доступ разрешен.")
+else:
+    print("неверный парль.")
+    
+    6 зд
+blue = ("B1", "B3", "B7", "C1", "C4", "C5","C6", "C8", "C9")
+green = ("B2", "B4", "B6", "B8", "C2", "C7","C10", "C11")
+pop = input("введите координаты квадрата: ")
+if pop in blue:
+    print("в данном квадрате обитает синий попугай.")
+elif pop in green:
+    print("в данном квадрате обитает зеленый попугай.")
+else:
+    print("в данном квадрате попугаи не обитают.")
+    
+    7 зд
+    
+num1 = int(input("введите число n: "))
+num2 = int(input("введите число k: "))
+if num1 % num2 == 0:
+    print(True)
+else:
+    print(False)
+
+name = "Нанами"
+health = 60
+level = 8 
+if level >= 8 
+if heath > 50 and health < 100:
+    print("вы готовы к миссии!")
+elif health < 50 and > health 20:
+    print("ваше здоровье, будьте осторожны.")
+elif health < 20:
+    print("ваше здоровье, будьте осторожны.")
+else:
+    print("некоректные данные")
