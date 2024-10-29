@@ -1,0 +1,30 @@
+зд 1 
+
+names = ["Richard", "Igor", "Jonathan", "Alice", "Mary", "Bonnie",]
+for i in names:
+    print("Hello",i,"!")
+    
+    зд 2
+    
+    phrase = "I m learning cycles."
+    for i in range (10)
+    print(phrase)
+    
+    
+    зд 3 
+    stations = ["Малиновка", "Рябиновка", "Суслово", "Дрожжино", "Звягино".]
+    # for i in stations:
+    #      if i =="Звягино":
+    #      print(f "Поезд на станции: {i} Конечная!")
+    #  else:
+    #       print(f "Поезд на станции: {i}")
+
+    зд 4 
+    
+    shop = ["Laptop", "Smartphone", "Watch", "Tablet", "Headphones".]
+    for i in shop:
+        if i == "Laptop":
+        print("I m buying this.")
+        else:
+            print("I dont need it.")
+    
