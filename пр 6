@@ -6,7 +6,7 @@ elif age > 18 and age < 65:
     print("Вы трудноспособный человек")
 else: #age > 65
     print("Вы пенсонер")
-# ex 2
+ ex 2
 price = int(input ("Введите сумму"))
 if price  < 1000:
     print ("Нет скидки")
@@ -29,27 +29,27 @@ elif operation == '/':
 else:
     print("Неверная операция")
 
-# ex 4
+ ex 4
 num = int(input("Введите число:"))
 if num % 2 == 0 and num % 10 == 2 or num % 10 == 0:
     print ("true")
 else:
     print ("false")
-# ex 5 
+ ex 5 
 true_password = ("asd")
 password = input("введите пароль")
 if password == true_password:
     print ("Доступ разрешен")
 else:
     print ("Доступ запрещен")
-# ex 7
+ ex 7
 n = int(input("введите 1 число"))
 k = int(input("введите 2 число"))
 if n%k == 0:
     print("число кратное")
 else:   
     print("число не кратное")
-# ex 8
+ex 8
 hp = int(input("Ваш уровень здоровья:"))
 lvl = int(input("Ваш уровень:"))
 if lvl >5: 
