@@ -1,30 +1,63 @@
-зд 1 
+ex 1
+age = int(input("возраст"))
+if age < 18:
+    print("Вы несовершеннолетний")
+elif age > 18 and age < 65:
+    print("Вы трудноспособный человек")
+else: #age > 65
+    print("Вы пенсонер")
+# ex 2
+price = int(input ("Введите сумму"))
+if price  < 1000:
+    print ("Нет скидки")
+elif price > 1000 and price < 5000:
+    print("Скидка 5%")
+elif price > 5000:
+    print ("Скидка 10 %")
+ex 3 
+chislo1 = int(input("Введите первое число"))
+chislo2 = int(input("Введите второе число"))
+operation = str(input("Введите операцию")
+if operation == '+':
+    print(chislo1 + chislo2)
+elif operation == '-':
+    print(chislo1 - chislo2)
+elif operation == '*':
+    print(chislo1 * chislo2)
+elif operation == '/':
+    print(chislo1 / chislo2)
+else:
+    print("Неверная операция")
 
-names = ["Richard", "Igor", "Jonathan", "Alice", "Mary", "Bonnie",]
-for i in names:
-    print("Hello",i,"!")
-    
-    зд 2
-    
-    phrase = "I m learning cycles."
-    for i in range (10)
-    print(phrase)
-    
-    
-    зд 3 
-    stations = ["Малиновка", "Рябиновка", "Суслово", "Дрожжино", "Звягино".]
-    # for i in stations:
-    #      if i =="Звягино":
-    #      print(f "Поезд на станции: {i} Конечная!")
-    #  else:
-    #       print(f "Поезд на станции: {i}")
-
-    зд 4 
-    
-    shop = ["Laptop", "Smartphone", "Watch", "Tablet", "Headphones".]
-    for i in shop:
-        if i == "Laptop":
-        print("I m buying this.")
-        else:
-            print("I dont need it.")
-    
+# ex 4
+num = int(input("Введите число:"))
+if num % 2 == 0 and num % 10 == 2 or num % 10 == 0:
+    print ("true")
+else:
+    print ("false")
+# ex 5 
+true_password = ("asd")
+password = input("введите пароль")
+if password == true_password:
+    print ("Доступ разрешен")
+else:
+    print ("Доступ запрещен")
+# ex 7
+n = int(input("введите 1 число"))
+k = int(input("введите 2 число"))
+if n%k == 0:
+    print("число кратное")
+else:   
+    print("число не кратное")
+# ex 8
+hp = int(input("Ваш уровень здоровья:"))
+lvl = int(input("Ваш уровень:"))
+if lvl >5: 
+    print("Ваш уровень слишком низкий для выполнения мисии")
+if lvl <=5:
+    if hp >50:
+        print("Вы готовы к мисии")
+    elif hp <20 and hp<=50:
+        print("Ваше здоровье низкое, будьте осторожны.")
+    elif hp >20:
+        print("Ваше здоровье слишком низкое для выполнения миссии.")
