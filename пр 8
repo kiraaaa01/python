@@ -1,0 +1,10 @@
+#зд 2
+from random import *
+
+random_numbers = randint(1,50)
+for_in range 
+print(random_number)
+
+#зд 3
+current_datetime = datatime.now()
+print ("10.12.2024")
